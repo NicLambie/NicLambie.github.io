@@ -68,3 +68,40 @@ div.cardinfo {
     padding: 25px;
     margin: 10px;
 }
+
+
+form {
+    margin: 75px auto;
+    width: 75%;
+}
+
+.form-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.form-item label {
+    flex-basis: 150px;
+    font-size: 30px;
+}
+
+.form-text {
+    font-family: 'Slabo 27px', serif;;
+    font-size: 1.75rem;
+    margin: 50px;
+}
+
+.form-item button {
+    width: 200px;
+}
+
+.form-item input,
+.form-item textarea,
+.form-item button {
+    border: 2px solid #ce3599;
+    background-color: whitesmoke;
+    padding: 10px;
+    font-size: 30px;
+}
