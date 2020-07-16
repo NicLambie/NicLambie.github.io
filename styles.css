@@ -57,13 +57,9 @@ img {
     width: 30%;
     height: auto;
     padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
 }
-
-div.cardinfo {
-    padding: 25px;
-    margin: 10px;
-}
-
 
 form {
     margin: 75px auto;
