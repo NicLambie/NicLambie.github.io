@@ -52,7 +52,7 @@ nav {
 }
 
 img {
-    display: inline-block;
+    display: inline;
     width: 30%;
     height: auto;
     padding-bottom: 50px;
