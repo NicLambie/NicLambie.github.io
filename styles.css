@@ -45,11 +45,6 @@ div.card {
     width: 50px;
 }
 
-div.card {
-    display: flex;
-    align-content: flex-end;
-}
-
 nav {
     font-size: 3rem;
     margin: 10px;
