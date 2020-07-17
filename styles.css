@@ -38,17 +38,27 @@ h3 {
 
 div.card {
     border: 5px solid #CE3599;
-    margin: 10px;
-    border-radius: 5px;
-    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    padding: 30px;
     font-size: 1.5rem;
+    width: 800px;
 }
 
 nav {
     font-size: 3rem;
     margin: 10px;
+    border-radius: 50px;
     padding: 20px;
     background-color: #CE3599;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 img {
@@ -56,6 +66,13 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    border-radius: 50px;
+}
+
+div.text {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #CE3599;
 }
 
 form {
@@ -94,7 +111,32 @@ form {
     font-size: 30px;
 }
 
+#LIlogo {
+    width: 75px;
+    height: 75px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.link {
+    font-size: 2rem;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    color: #ce3599;
+}
+
+.button {
+    font-size: 2rem;
+    padding-top: 10px;
+    margin-left: 35%;
+    margin-right: auto;
+    color: #ce3599;
+}
+
 .footer {
+    font-size: 1.5rem;
     text-align: center;
     padding-top: 100px;
 }
+
